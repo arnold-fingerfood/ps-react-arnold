@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types'; // need to reference using this package
 
 /** A super lame component that says Hello with a custom message */
-function HelloWorld(message) {
+function HelloWorld({ message }) {
     return <div>Hello {message}</div>
 }
 
