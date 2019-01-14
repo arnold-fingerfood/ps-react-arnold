@@ -84,8 +84,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # stuff that we don't want to commit per Pluralsight
-#/lib
-#/docs
-#/config/componentData.js
-#launch.json
-#.idea
+/lib
+/docs
+/config/componentData.js
+launch.json
+.idea
